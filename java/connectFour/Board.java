@@ -89,6 +89,9 @@ public class Board {
     	
         int numConsecutive = 0;
 
+	// TODO : add return statements whenever the value of 
+	// haveWinner changes to true as we don't need to do
+	// any more checks when this happens
         boolean haveWinner = false;
 
         // check verticals
