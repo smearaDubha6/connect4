@@ -103,7 +103,6 @@ public class Board {
             
             if (numConsecutive == WINNING_SCORE) {
                haveWinner = true;
-               System.out.println("1 winner");
             }
         }
 
@@ -120,7 +119,6 @@ public class Board {
         	
             if (numConsecutive == WINNING_SCORE) {
                haveWinner = true;
-               System.out.println("2 winner");
             }
         }
 
@@ -142,7 +140,6 @@ public class Board {
         		numConsecutive++;
         		if (numConsecutive == WINNING_SCORE) {
         			haveWinner = true;
-        			System.out.println("3 winner");
         		} 
         	} else {
         		break;
@@ -161,7 +158,6 @@ public class Board {
                 numConsecutive++;
                 if (numConsecutive == WINNING_SCORE) {
                     haveWinner = true;
-                    System.out.println("4 winner");
                 }
             } else {
                 break;
@@ -185,7 +181,6 @@ public class Board {
                 numConsecutive++;
                 if (numConsecutive == WINNING_SCORE) {
                     haveWinner = true;
-                    System.out.println("5 winner");
                 }
             } else {
                 break;
@@ -204,7 +199,6 @@ public class Board {
                 numConsecutive++;
                 if (numConsecutive == WINNING_SCORE) {
                     haveWinner = true;
-                    System.out.println("6 winner");
                 }
             } else {
                 break;
